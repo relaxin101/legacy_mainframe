@@ -1,0 +1,743 @@
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+                                                J E S 2   J O B   L O G
+
+
+12.02.54 JOB   16  IEF677I WARNING MESSAGE(S) FOR JOB HERC03A1 ISSUED
+12.02.54 JOB   16  $HASP373 HERC03A1 STARTED - INIT  1 - CLASS A - SYS TK5R
+12.02.54 JOB   16  IEF403I HERC03A1 - STARTED - TIME=12.02.54
+12.02.55 JOB   16  IEFACTRT - Stepname  Procstep  Program   Retcode
+12.02.55 JOB   16  HERC03A1   P1CLG     PL1L      IEMAA     RC= 0000
+12.02.55 JOB   16  HERC03A1   P1CLG     LKED      IEWL      RC= 0000
+12.02.55 JOB   16  HERC03A1   P1CLG     GO        PGM=*.DD  RC= 0000
+12.02.55 JOB   16  IEF404I HERC03A1 - ENDED - TIME=12.02.55
+12.02.55 JOB   16  $HASP395 HERC03A1 ENDED
+
+
+------ JES2 JOB STATISTICS ------
+
+
+ 21 NOV 24 JOB EXECUTION DATE
+
+
+        14 CARDS READ
+
+
+       364 SYSOUT PRINT RECORDS
+
+
+         0 SYSOUT PUNCH RECORDS
+
+
+      0.01 MINUTES EXECUTION TIME
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+    1     //HERC03A1 JOB (HERC03),'TEST JOB',                                     JOB   16
+          //             CLASS=A,MSGCLASS=X,
+          //             REGION=8M,TIME=1440,
+          //             NOTIFY=HERC03,MSGLEVEL=(1,1),
+          //             USER=HERC03,PASSWORD=
+          ***
+    2     //P1CLG      EXEC PL1LFCLG
+          ***
+    3     XXPL1LFCLG PROC SOUT='*'                                                00000100
+    4     XXPL1L   EXEC  PGM=IEMAA,PARM='LOAD,NODECK'                             00000200
+    5     XXSYSPRINT DD  SYSOUT=&SOUT                                             00000300
+    6     XXSYSLIN   DD  DSNAME=&&LOADSET,DISP=(MOD,PASS),UNIT=SYSSQ,            *00000400
+          XX             SPACE=(80,(250,100))                                     00000500
+    7     XXSYSUT3  DD  DSNAME=&&SYSUT3,UNIT=SYSDA,SPACE=(80,(250,250)),         *00000600
+          XX             DCB=BLKSIZE=80                                           00000700
+    8     XXSYSUT1   DD  DSNAME=&&SYSUT1,UNIT=SYSDA,SPACE=(1024,(60,60),,CONTIG),*00000800
+          XX             SEP=(SYSUT3,SYSLIN),DCB=BLKSIZE=1024                     00000900
+    9     //PL1L.SYSIN DD *
+   10     XXLKED   EXEC  PGM=IEWL,PARM='XREF,LIST',COND=(9,LT,PL1L)               00001000
+   11     XXSYSLIB   DD  DSNAME=SYS1.PL1LIB,DISP=SHR                              00001100
+   12     XXSYSLMOD  DD  DSNAME=&&GOSET(GO),DISP=(MOD,PASS),                     *00001200
+          XX             UNIT=SYSDA,SPACE=(1024,(50,20,1),RLSE)                   00001300
+   13     XXSYSUT1   DD  DSNAME=&&SYSUT1,UNIT=SYSDA,SPACE=(1024,(200,20)),       *00001400
+          XX             SEP=(SYSLMOD,SYSLIB),DCB=BLKSIZE=1024                    00001500
+   14     XXSYSPRINT DD  SYSOUT=&SOUT                                             00001600
+   15     XXSYSLIN   DD  DSNAME=&&LOADSET,DISP=(OLD,DELETE)                       00001700
+   16     XX         DD  DDNAME=SYSIN                                             00001800
+   17     XXGO     EXEC  PGM=*.LKED.SYSLMOD,COND=((9,LT,LKED),(9,LT,PL1L))        00001900
+   18     //GO.SYSPRINT DD SYSOUT=A
+          X/SYSPRINT DD  SYSOUT=&SOUT                                             00002000
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+ STMT NO. MESSAGE
+-
+    5     IEF653I SUBSTITUTION JCL - SYSOUT=*
+   14     IEF653I SUBSTITUTION JCL - SYSOUT=*
+   18     IEF653I SUBSTITUTION JCL - SYSOUT=*
+   17     IEF686I DDNAME REFERRED TO ON DDNAME KEYWORD IN PRIOR STEP WAS NOT RESOLVED
+IEF236I ALLOC. FOR HERC03A1 PL1L P1CLG
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 291  ALLOCATED TO SYSLIN
+IEF237I 293  ALLOCATED TO SYSUT3
+IEF237I 290  ALLOCATED TO SYSUT1
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I HERC03A1 PL1L P1CLG - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB00016.SO0102                         SYSOUT
+IEF285I   SYS24326.T120254.RA000.HERC03A1.LOADSET      PASSED        *-------22
+IEF285I   VOL SER NOS= WORK02.
+IEF285I   SYS24326.T120254.RA000.HERC03A1.SYSUT3       DELETED       *--------0
+IEF285I   VOL SER NOS= WORK04.
+IEF285I   SYS24326.T120254.RA000.HERC03A1.SYSUT1       DELETED       *--------0
+IEF285I   VOL SER NOS= WORK01.
+IEF285I   JES2.JOB00016.SI0101                         SYSIN
+IEF373I STEP /PL1L    / START 24326.1202
+IEF374I STEP /PL1L    / STOP  24326.1202 CPU    0MIN 00.35SEC SRB    0MIN 00.09SEC VIRT  8192K SYS   236K
+************************************************************************************************************************************
+*     1. Jobstep of job: HERC03A1    Stepname: PL1L        Program name: IEMAA      Executed on 21.11.24 from 12.02.54 to 12.02.55 *
+*         elapsed time  00:00:00,82                      CPU-Identifier:  TK5R           Page-in:      0                           *
+*             CPU time  00:00:00,44               Virtual Storage used:   8192K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,44   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      3                                                                           *
+*     DMY.......0 291......22 293.......0 290.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,73                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR HERC03A1 LKED P1CLG
+IEF237I 390  ALLOCATED TO SYSLIB
+IEF237I 293  ALLOCATED TO SYSLMOD
+IEF237I 290  ALLOCATED TO SYSUT1
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 291  ALLOCATED TO SYSLIN
+IEF237I DMY  ALLOCATED TO
+IEF142I HERC03A1 LKED P1CLG - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   SYS1.PL1LIB                                  KEPT          *-------76
+IEF285I   VOL SER NOS= TK5RES.
+IEF285I   SYS24326.T120254.RA000.HERC03A1.GOSET        PASSED        *-------42
+IEF285I   VOL SER NOS= WORK04.
+IEF285I   SYS24326.T120254.RA000.HERC03A1.SYSUT1       DELETED       *--------0
+IEF285I   VOL SER NOS= WORK01.
+IEF285I   JES2.JOB00016.SO0103                         SYSOUT
+IEF285I   SYS24326.T120254.RA000.HERC03A1.LOADSET      DELETED       *-------23
+IEF285I   VOL SER NOS= WORK02.
+IEF373I STEP /LKED    / START 24326.1202
+IEF374I STEP /LKED    / STOP  24326.1202 CPU    0MIN 00.09SEC SRB    0MIN 00.02SEC VIRT   264K SYS   212K
+************************************************************************************************************************************
+*     2. Jobstep of job: HERC03A1    Stepname: LKED        Program name: IEWL       Executed on 21.11.24 from 12.02.55 to 12.02.55 *
+*         elapsed time  00:00:00,19                      CPU-Identifier:  TK5R           Page-in:      0                           *
+*             CPU time  00:00:00,11               Virtual Storage used:    264K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,11   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      0                                                                           *
+*     390......76 293......42 290.......0 DMY.......0 291......23 DMY.......0                                                      *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,18                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR HERC03A1 GO P1CLG
+IEF237I 293  ALLOCATED TO PGM=*.DD
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF142I HERC03A1 GO P1CLG - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   SYS24326.T120254.RA000.HERC03A1.GOSET        KEPT          *--------0
+IEF285I   VOL SER NOS= WORK04.
+IEF285I   JES2.JOB00016.SO0104                         SYSOUT
+IEF373I STEP /GO      / START 24326.1202
+IEF374I STEP /GO      / STOP  24326.1202 CPU    0MIN 00.03SEC SRB    0MIN 00.01SEC VIRT    40K SYS   200K
+************************************************************************************************************************************
+*     3. Jobstep of job: HERC03A1    Stepname: GO          Program name: PGM=*.DD   Executed on 21.11.24 from 12.02.55 to 12.02.55 *
+*         elapsed time  00:00:00,09                      CPU-Identifier:  TK5R           Page-in:      0                           *
+*             CPU time  00:00:00,04               Virtual Storage used:     40K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,04   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      0                                                                           *
+*     293.......0 DMY.......0                                                                                                      *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,06                                             *
+************************************************************************************************************************************
+IEF237I 293  ALLOCATED TO SYS00001
+IEF285I   SYS24326.T120255.RA000.HERC03A1.R0000001     KEPT          *--------0
+IEF285I   VOL SER NOS= WORK04.
+IEF285I   SYS24326.T120254.RA000.HERC03A1.GOSET        DELETED
+IEF285I   VOL SER NOS= WORK04.
+IEF375I  JOB /HERC03A1/ START 24326.1202
+IEF376I  JOB /HERC03A1/ STOP  24326.1202 CPU    0MIN 00.47SEC SRB    0MIN 00.12SEC
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+                                                                                                            PAGE      1
+VERSION 5.5                                     OS/360 PL/I COMPILER (F)                                    DATE 24.326
+
+
+PL/I F COMPILER OPTIONS SPECIFIED ARE AS FOLLOWS--
+
+     LOAD,NODECK
+
+
+THE COMPLETE LIST OF OPTIONS USED DURING THIS COMPILATION IS--   EBCDIC
+                                                                 CHAR60
+                                                               NOMACRO
+                                                                 SOURCE2
+                                                               NOMACDCK
+                                                                 COMP
+                                                                 SOURCE
+                                                               NOATR
+                                                               NOXREF
+                                                               NOEXTREF
+                                                               NOLIST
+                                                                 LOAD
+                                                               NODECK
+                                                                 FLAGW
+                                                               NOSTMT
+                                                                 SIZE=8351184
+                                                                 LINECNT=050
+                                                                 OPT=01
+                                                                 SORMGIN=(002,072)
+                                                               NOEXTDIC
+                                                               NONEST
+                                                                 OPLIST
+                                                                 SYNCHKT
+
+
+*OPTIONS IN EFFECT*     EBCDIC,CHAR60,NOMACRO,SOURCE2,NOMACDCK,COMP,SOURCE,NOATR,NOXREF,NOEXTREF,NOLIST,LOAD,
+*OPTIONS IN EFFECT*     NODECK,FLAGW,NOSTMT,SIZE=8351184,LINECNT=050,OPT=01,SORMGIN=(002,072),NOEXTDIC,
+*OPTIONS IN EFFECT*     NONEST,OPLIST,SYNCHKT           HELLO: PROC OPTIONS(MAIN);                                                                       PAGE      2
+
+
+     1               HELLO: PROC OPTIONS(MAIN);
+     2                PUT FILE(SYSPRINT) LIST('HELLO WORLD');
+     3               END HELLO;           HELLO: PROC OPTIONS(MAIN);                                                                       PAGE      3
+
+
+          STORAGE REQUIREMENTS.
+          ----------------------
+
+          THE STORAGE AREA FOR THE PROCEDURE LABELLED HELLO IS 168 BYTES LONG.
+
+          THE PROGRAM CSECT IS NAMED HELLO    AND IS 92 BYTES LONG.
+
+          THE STATIC  CSECT IS NAMED **HELLOA AND IS 112 BYTES LONG.
+
+
+*STATISTICS*     SOURCE RECORDS =        3,PROG TEXT STMNTS =        3,OBJECT BYTES =       92           HELLO: PROC OPTIONS(MAIN);                                                                       PAGE      4
+
+
+TABLE OF OFFSETS AND STATEMENT NUMBERS WITHIN PROCEDURE          HELLO
+
+OFFSET (HEX)  0000 0038 0056
+STATEMENT NO     1    2    3
+
+
+ NO ERRORS OR WARNINGS DETECTED.
+
+
+AUXILIARY STORAGE WILL NOT BE USED FOR DICTIONARY WHEN SIZE = 120K
+
+
+COMPILE TIME         .00 MINS
+
+ELAPSED TIME         .01 MINS                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+****X  START  JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16  START  X****
+
+ F64-LEVEL LINKAGE EDITOR OPTIONS SPECIFIED XREF,LIST
+          DEFAULT OPTION(S) USED -  SIZE=(231424,55296)
+
+
+
+                                                CROSS REFERENCE TABLE
+
+
+  CONTROL SECTION                       ENTRY
+
+    NAME    ORIGIN  LENGTH                NAME   LOCATION     NAME   LOCATION     NAME   LOCATION     NAME   LOCATION
+  HELLO         00      5C
+  **HELLOA      60      70
+  IHEMAIN       D0       4
+  IHENTRY       D8       C
+  IHESPRT       E8      38
+  IHEIOB  *    120     1E0
+                                        IHEIOBA      120    IHEIOBB      128    IHEIOBC      130    IHEIOBD      138
+                                        IHEIOBE      140    IHEIOBT      228
+  IHEERR  *    300     745
+                                        IHEERRD      300    IHEERRC      30A    IHEERRB      314    IHEERRA      31E
+                                        IHEERRE      9AE
+  IHEIOP  *    A48     1F7
+                                        IHEIOPA      A48    IHEIOPB      A4A    IHEIOPC      A4E
+  IHEOCL  *    C40     580
+                                        IHEOCLA      C40    IHEOCLB      C42    IHEOCLC      C44    IHEOCLD      C46
+  IHEABN  *   11C0       C
+                                        IHEABND     11C0
+  IHEM91  *   11D0     178
+                                        IHEM91B     11D0    IHEM91A     11D8    IHEM91C     12EA
+  IHETER  *   1348     110
+                                        IHETERA     1348
+  IHEIOF  *   1458     2DC
+                                        IHEIOFB     1458    IHEIOFA     145A    IHEITAZ     16F6    IHEITAX     1702
+                                        IHEITAA     1716
+  IHELDO  *   1738     418
+                                        IHELDOA     1738    IHELDOB     173A    IHELDOC     173E
+  IHEDNC  *   1B50     2B2
+                                        IHEDNCA     1B50
+  IHEVSB  *   1E08      CE
+                                        IHEVSBA     1E08
+  IHEVSC  *   1ED8      AC
+                                        IHEVSCA     1ED8
+  IHEDMA  *   1F88      F8
+                                        IHEDMAA     1F88
+  IHEUPA  *   2080      E8
+                                        IHEUPAA     2080    IHEUPAB     20EA
+  IHEVQC  *   2168     268
+                                        IHEVQCA     2168
+  IHEVSE  *   23D0     15D
+                                        IHEVSEA     23D0    IHEVSEB     23D2
+  IHEVSF  *   2530      EC
+                                        IHEVSFA     2530
+  IHEVFA  *   2620     16C
+                                        IHEVFAA     2620
+
+    NAME    ORIGIN  LENGTH                NAME   LOCATION     NAME   LOCATION     NAME   LOCATION     NAME   LOCATION
+  IHEVFB  *   2790      F0
+                                        IHEVFBA     2790
+  IHEVFC  *   2880      26
+                                        IHEVFCA     2880
+  IHEVFD  *   28A8      66
+                                        IHEVFDA     28A8
+  IHEVFE  *   2910      20
+                                        IHEVFEA     2910
+  IHEVKB  *   2930     30A
+                                        IHEVKBA     2930
+  IHEVKC  *   2C40     2D0
+                                        IHEVKCA     2C40
+  IHEVKF  *   2F10     67C
+                                        IHEVKFA     2F10
+  IHEVKG  *   3590     4DE
+                                        IHEVKGA     3590
+  IHEVPA  *   3A70     1E0
+                                        IHEVPAA     3A70
+  IHEVPB  *   3C50     1A2
+                                        IHEVPBA     3C50
+  IHEVPC  *   3DF8     1F0
+                                        IHEVPCA     3DF8
+  IHEVPD  *   3FE8     105
+                                        IHEVPDA     3FE8
+  IHEVPE  *   40F0     278
+                                        IHEVPEA     40F0
+  IHEVPF  *   4368      50
+                                        IHEVPFA     4368
+  IHEVPG  *   43B8     229
+                                        IHEVPGA     43B8
+  IHEVPH  *   45E8      B4
+                                        IHEVPHA     45E8
+  IHESAP  *   46A0     B1C
+                                        IHESADA     46A0    IHESAPC     46BA    IHESAPD     46C2    IHESAPA     46CA
+                                        IHESAPB     46D2    IHESADF     46DA    IHESADB     46E2    IHESADE     46EA
+                                        IHESAFC     46F2    IHESAFA     46FA    IHESAFB     4702    IHESAFD     470A
+                                        IHESARA     4712    IHESAFQ     471A    IHESARC     4F0C    IHESADD     5020
+                                        IHESAFF     505A
+  IHEBEG  *   51C0      80
+                                        IHEBEGN     51C0    IHEBEGA     5200
+  IHEDDO  *   5240     288
+                                        IHEDDOA     5240    IHEDDOB     5242    IHEDDOC     5244    IHEDDOD     5246
+                                        IHEDDOE     5248
+  IHEPRT  *   54C8     308
+                                        IHEPRTA     54C8    IHEPRTB     54CA
+  IHESIZ  *   57D0       C
+                                        IHESIZE     57D0
+  IHETAB  *   57E0       C
+                                        IHETABS     57E0
+  IHEDDP  *   57F0     28C
+                                        IHEDDPA     57F0    IHEDDPB     57F2    IHEDDPC     57F4    IHEDDPD     57F6
+
+  LOCATION  REFERS TO SYMBOL  IN CONTROL SECTION             LOCATION  REFERS TO SYMBOL  IN CONTROL SECTION
+       10            **HELLOA        **HELLOA                      80            IHESADA         IHESAP
+       84            IHESADB         IHESAP                        88            HELLO           HELLO
+       8C            HELLO           HELLO                         98            HELLO           HELLO
+       9C            IHELDOB         IHELDO                        A0            IHEIOBT         IHEIOB
+       A4            IHEIOBA         IHEIOB                        90            IHESAFA         IHESAP
+       A8            IHESPRT         IHESPRT                       C4            IHESPRT         IHESPRT
+       C9            HELLO           HELLO                         D0            HELLO           HELLO
+       E0            IHESAPC         IHESAP                       2D4            IHEIOPA         IHEIOP
+      2D8            IHEIOPB         IHEIOP                       2DC            IHEIOPC         IHEIOP
+      2E0            IHEIOPA         IHEIOP                       2E4            IHEOCLC         IHEOCL
+      2F8            IHEERRB         IHEERR                       2FC            IHEERRC         IHEERR
+      9F4            IHEM91A         IHEM91                       9F8            IHEM91B         IHEM91
+      9FC            IHEM91C         IHEM91                       A00            IHEABND         IHEABN
+      A24            IHETERA         IHETER                       C24            IHEIOFA         IHEIOF
+      C28            IHEERRB         IHEERR                       C2C            IHEERRC         IHEERR
+     11A0            IHEIOFA         IHEIOF                      11A8            IHEERRB         IHEERR
+     11AC            IHEERRC         IHEERR                      1330            IHEERRC         IHEERR
+     1724            IHEERRB         IHEERR                      1728            IHEERRC         IHEERR
+     1B3C            IHEERRC         IHEERR                      1B40            IHEIOFA         IHEIOF
+     1B44            IHEVSBA         IHEVSB                      1B48            IHEVSCA         IHEVSC
+     1B4C            IHEDNCA         IHEDNC                      1DE4            IHEDMAA         IHEDMA
+     1DE8            IHEUPAB         IHEUPA                      1DEC            IHEVSCA         IHEVSC
+     1DF0            IHEVSEB         IHEVSE                      1DF4            IHEVQCA         IHEVQC
+     1FF4            IHEVFBA         IHEVFB                      1FF8            IHEVFCA         IHEVFC
+     2000            IHEVFAA         IHEVFA                      2004            IHEVPAA         IHEVPA
+     2008            IHEVKGA         IHEVKG                      200C            IHEVPDA         IHEVPD
+     2010            IHEVKFA         IHEVKF                      2014            IHEVPBA         IHEVPB
+     2018            IHEVPCA         IHEVPC                      2044            IHEVFDA         IHEVFD
+     2048            IHEVFEA         IHEVFE                      2050            IHEVPHA         IHEVPH
+     2054            IHEVPGA         IHEVPG                      2058            IHEVKCA         IHEVKC
+     205C            IHEVPFA         IHEVPF                      2060            IHEVKBA         IHEVKB
+     2064            IHEVPEA         IHEVPE                      22B8            IHEVSEB         IHEVSE
+     233C            IHEERRC         IHEERR                      2358            IHEERRB         IHEERR
+     23AC            IHEVSCA         IHEVSC                      2520            IHEERRB         IHEERR
+     2524            IHEERRC         IHEERR                      2614            IHEERRC         IHEERR
+     2868            IHEERRB         IHEERR                      3584            IHEERRB         IHEERR
+     3A5C            IHEERRB         IHEERR                      3C4C            IHEERRB         IHEERR
+     3DD0            IHEERRC         IHEERR                      3DE0            IHEERRB         IHEERR
+     3FD0            IHEERRC         IHEERR                      3FD4            IHEERRB         IHEERR
+     40E0            IHEERRB         IHEERR                      4350            IHEERRB         IHEERR
+     45D4            IHEERRB         IHEERR                      4698            IHEERRB         IHEERR
+     50BC            IHEMAIN         IHEMAIN                     50DC            IHEOCLD         IHEOCL
+     50E0            IHESIZE         IHESIZ                      50E4            IHEBEGA         IHEBEG
+     5168            IHEITAX         IHEIOF                      516C            IHEERRB         IHEERR
+     5170            IHEERRC         IHEERR                      5174            IHETABS         IHETAB
+     5178            IHEITAZ         IHEIOF                      490D            IHEERRA         IHEERR
+     51AC            IHEPRTA         IHEPRT                      51B0            IHEPRTB         IHEPRT
+     51B4            IHEDDOD         IHEDDO                      51B8            IHEOCLC         IHEOCL
+     54A8            IHEIOFA         IHEIOF                      54AC            IHELDOC         IHELDO
+     54B0            IHEPRTB         IHEPRT                      54B4            IHEDDPA         IHEDDP
+     54B8            IHEDDPB         IHEDDP                      54BC            IHEDDPC         IHEDDP
+     54C0            IHEDDPD         IHEDDP                      579C            IHEOCLA         IHEOCL
+
+  LOCATION  REFERS TO SYMBOL  IN CONTROL SECTION             LOCATION  REFERS TO SYMBOL  IN CONTROL SECTION
+     57A0            IHEIOFA         IHEIOF                      57A4            IHESPRT         IHESPRT
+
+  LOCATION   1454 REQUESTS CUMULATIVE PSEUDO REGISTER LENGTH
+
+ PSEUDO REGISTERS
+
+
+    NAME    ORIGIN  LENGTH        NAME    ORIGIN  LENGTH        NAME    ORIGIN  LENGTH        NAME    ORIGIN  LENGTH
+  IHEQINV       00       4      IHEQERR        4       4      IHEQTIC        8       4      **HELLOB       C       4
+  IHEQSPR       10       4      IHEQLSA       14       4      IHEQLW0       18       4      IHEQLW1       1C       4
+  IHEQLW2       20       4      IHEQLW3       24       4      IHEQLW4       28       4      IHEQLWE       2C       4
+  IHEQLCA       30       4      IHEQVDA       34       4      IHEQFVD       38       4      IHEQFOP       3C       4
+  IHEQCFL       40       8      IHEQADC       48       4      IHEQLPR       4C       4      IHEQXLV       50       8
+  IHEQEVT       58       8      IHEQSLA       60       4      IHEQSAR       64       4      IHEQLWF       68       4
+
+  IHEQRTC       6C       4      IHEQSFC       70       4
+ TOTAL LENGTH OF PSEUDO REGISTERS      74
+ ENTRY ADDRESS       D8
+
+ TOTAL LENGTH      5A80
+****GO        DOES NOT EXIST BUT HAS BEEN ADDED TO DATA SET
+AUTHORIZATION CODE IS         0.
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000     3333333333    AAAAAAAAAA        11
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000   333333333333  AAAAAAAAAAAA      111
+               HH        HH  EE            RR        RR  CC        CC  00      0000  33        33  AA        AA     1111
+              HH        HH  EE            RR        RR  CC            00     00 00            33  AA        AA       11
+             HH        HH  EE            RR        RR  CC            00    00  00            33  AA        AA       11
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00         3333   AAAAAAAAAAAA       11
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00         3333   AAAAAAAAAAAA       11
+          HH        HH  EE            RR    RR      CC            00 00     00            33  AA        AA       11
+         HH        HH  EE            RR     RR     CC            0000      00            33  AA        AA       11
+        HH        HH  EE            RR      RR    CC        CC  000       00  33        33  AA        AA       11
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000   333333333333  AA        AA   1111111111
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     3333333333   AA        AA   1111111111
+
+
+
+                    JJJJJJJJJJ       11        6666666666                                             XX        XX
+                    JJJJJJJJJJ      111       666666666666                                            XX        XX
+                        JJ         1111       66        66                                             XX      XX
+                        JJ           11       66                                                        XX    XX
+                        JJ           11       66                                                         XX  XX
+                        JJ           11       66666666666                                                 XXXX
+                        JJ           11       666666666666                                                XXXX
+                        JJ           11       66        66                                               XX  XX
+                  JJ    JJ           11       66        66                                              XX    XX
+                  JJ    JJ           11       66        66                                             XX      XX
+                  JJJJJJJJ       1111111111   666666666666                                            XX        XX
+                   JJJJJJ        1111111111    6666666666                                             XX        XX
+
+
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+****X   END   JOB   16  HERC03A1  TEST JOB              ROOM       12.03.04 PM 21 NOV 24  PRINTER3  SYS TK5R  JOB   16   END   X****
+

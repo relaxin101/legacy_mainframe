@@ -1,0 +1,8 @@
+       3 META,
+         5 TAXID FIXED DECIMAL(9,0),
+         5 STATUS CHAR(1),
+         5 LAST_UPDATED,
+           10 UPDATE_DATE CHAR(6),
+           10 UPDATE_TIME CHAR(9),
+       3 BALANCE FIXED DECIMAL(13,2),
+       3 NOTES(10) CHAR(100)
