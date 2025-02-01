@@ -1,0 +1,216 @@
+ /*Negation character: ¬ */
+ DIFF: PROC OPTIONS(MAIN) REORDER;                                                          
+   DISPLAYREC: PROCEDURE(REC);
+      /* WRITE 'REC' TO SYSPRINT IN A CLEAN FORMAT */
+    DCL 1 REC  UNALIGNED,
+          %INCLUDE TAXREC;;
+    PUT SKIP FILE(SYSPRINT) EDIT ('TAXID', REC.META.TAXID)
+      (A, COLUMN(14), F(9));
+    PUT SKIP FILE(SYSPRINT) EDIT ('STATUS   ', REC.META.STATUS)    
+      (A, COLUMN(14), A);
+    PUT SKIP FILE(SYSPRINT) EDIT('BALANCE   ', REC.BALANCE)   
+      (A, COLUMN(14), F(13,2));
+     PUT SKIP FILE(SYSPRINT) EDIT ('LAST UPDATE','DATE ', 
+        REC.LAST_UPDATED.UPDATE_DATE, 'TIME ',
+        REC.LAST_UPDATED.UPDATE_TIME)   
+        (A,SKIP, COLUMN(3), A, COLUMN(14),A,
+          SKIP,COLUMN(3),A,COLUMN(14),A);
+    PUT SKIP FILE(SYSPRINT) LIST('NOTES');
+    DO I = 1 TO 10; 
+      IF (REC.NOTES(I) ^= '') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) EDIT (I, ':', REC.NOTES(I))
+        (COLUMN(3),F(2), A, COLUMN(14), A);
+      END;
+
+
+   END DISPLAYREC;
+   AMOGUS: PROCEDURE(CHANGE);
+    /* STORE 'CHANGE' AND WRITE TO SYSPRINT */
+    DCL 1 CHANGE  UNALIGNED,
+         2 TYPE CHAR(1),
+         2 FUTURE CHAR(19),
+         2 OLDREC UNALIGNED,
+          %INCLUDE TAXREC;,
+         2 NEWREC UNALIGNED,
+          %INCLUDE TAXREC;;
+      IF (CHANGE.TYPE = 'A') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD ADDED');
+        PUT SKIP FILE(SYSPRINT) LIST('NEW');
+        CALL DISPLAYREC(CHANGE.NEWREC);
+      END;
+      IF (CHANGE.TYPE = 'D') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD DELETED');
+        PUT SKIP FILE(SYSPRINT) LIST('OLD');
+        CALL DISPLAYREC(CHANGE.OLDREC);
+      END;
+      IF (CHANGE.TYPE = 'D') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD UPDATED');
+        PUT SKIP FILE(SYSPRINT) LIST('OLD');
+        CALL DISPLAYREC(CHANGE.OLDREC);
+
+        PUT SKIP FILE(SYSPRINT) LIST('NEW');
+        CALL DISPLAYREC(CHANGE.NEWREC);
+      END;
+      PUT SKIP FILE(SYSPRINT) EDIT (' ') (SKIP,A,SKIP);
+
+   END AMOGUS;
+
+   INC: PROC(ID, DAT, DIFFTYPE, REC);
+    /* 
+      READ FROM FILE 'DAT' INTO 'REC' UNTIL REC.META.TAXID >= 'ID'
+      CALL AMOGUS TO STORE CHANGES
+      DEPENDING ON 'DIFFTYPE'
+        - 'A' -> ASSIGN REC TO NEWREC
+        - -> ASSIGN REC TO OLDREC
+	if ID = -1, read until end of REC
+    */
+    DCL ID FIXED BIN(31);
+    DCL DAT FILE INPUT RECORD;
+    DCL DIFFTYPE CHAR(1);
+    DCL 1 REC UNALIGNED,
+          %INCLUDE TAXREC;;
+    DCL 1 REC1 UNALIGNED,
+          %INCLUDE TAXREC;;
+    DCL 1 CHANGE  UNALIGNED,
+         2 TYPE CHAR(1),
+         2 FUTURE CHAR(19),
+         2 OLDREC UNALIGNED,
+          %INCLUDE TAXREC;,
+         2 NEWREC UNALIGNED,
+          %INCLUDE TAXREC;;
+    CHANGE.TYPE = DIFFTYPE;
+    DCL  EOF_FLAG FIXED BIN(31) INIT(0);
+    /* TODO Does this work */
+    ON ENDFILE(DAT) BEGIN;
+    	EOF_FLAG = 1;
+    END;
+
+    IF DIFFTYPE = 'A' THEN BEGIN;
+      CHANGE.NEWREC = REC;
+      CHANGE.OLDREC = EMPTYREC;
+      END;
+    ELSE BEGIN;
+      CHANGE.OLDREC = REC;
+      CHANGE.NEWREC = EMPTYREC;
+      END;
+    IF ID ^= (0-1) THEN BEGIN;
+    	CALL AMOGUS(CHANGE);
+    END;
+    EOF_BEF = OLD_REC_END ^= NEW_REC_END;
+
+    READ FILE(DAT) INTO(REC1);
+    REC = REC1;
+
+    DO WHILE (^(^(REC1.META.TAXID < ID) & ^(ID = (0-1))) & 
+	EOF_FLAG = 0);
+      IF DIFFTYPE = 'A' THEN BEGIN;
+          CHANGE.NEWREC = REC1;
+          CHANGE.OLDREC = EMPTYREC;
+      END;
+      ELSE;
+        BEGIN;
+          CHANGE.OLDREC = REC1;
+          CHANGE.NEWREC = EMPTYREC;
+      END;
+
+      CALL AMOGUS(CHANGE);
+      READ FILE(DAT) INTO(REC1);
+      REC = REC1;
+    END;
+   END INC;
+
+   /*********************************************************************************************
+   ************************************START OF MAIN PROGRAM************************************
+   *********************************************************************************************/
+
+  /* Program output */
+  DCL SYSPRINT FILE OUTPUT STREAM;
+  /* FILES */
+  DCL OLDDAT FILE INPUT RECORD;
+  DCL NEWDAT FILE INPUT RECORD;
+  DCL CHANGES FILE OUTPUT RECORD;
+  /* Records */
+  DCL 1 OLDREC UNALIGNED,
+        %INCLUDE TAXREC;;
+  DCL 1 NEWREC UNALIGNED,
+        %INCLUDE TAXREC;;
+  DCL 1 EMPTYREC UNALIGNED,
+        %INCLUDE TAXREC;;
+  DCL 1 CHANGE  UNALIGNED,
+       2 TYPE CHAR(1),
+       2 FUTURE CHAR(19),
+       2 OLDREC UNALIGNED,
+        %INCLUDE TAXREC;,
+       2 NEWREC UNALIGNED,
+        %INCLUDE TAXREC;;
+  /* EOF Flags */
+  DCL OLD_REC_END FIXED BIN(31) INIT(0);
+  DCL NEW_REC_END FIXED BIN(31) INIT(0);
+  DCL OLD_REC_CONSUMED FIXED BIN(31) INIT(0);
+  DCL NEW_REC_CONSUMED FIXED BIN(31) INIT(0);
+
+  ON ENDFILE(OLDDAT) BEGIN;
+    OLD_REC_END = 1;
+  END;
+  ON ENDFILE(NEWDAT) BEGIN;
+    NEW_REC_END = 1;
+  END;
+  EMPTYREC.TAXID = '';
+  EMPTYREC.STATUS = '';
+  EMPTYREC.BALANCE = '';
+  EMPTYREC.LAST_UPDATED.UPDATE_DATE = '';
+  EMPTYREC.LAST_UPDATED.UPDATE_TIME = '';
+
+
+  PUT SKIP FILE(SYSPRINT)  LIST('AMOGUS');
+  DO WHILE (OLD_REC_END = 0 & NEW_REC_END = 0);
+    /* Only read if nothing was left over from last iteration */
+    IF OLD_REC_CONSUMED = 0 THEN BEGIN;
+      READ FILE(OLDDAT) INTO(OLDREC);
+      OLD_REC_CONSUMED = 1;
+    END;
+    /* Only read if nothing was left over from last iteration */
+    IF NEW_REC_CONSUMED = 0 THEN BEGIN;
+      READ FILE(NEWDAT) INTO(NEWREC);
+      NEW_REC_CONSUMED = 1;
+    END;
+    /* Write to CHANGE */
+    CHANGE.OLDREC = OLDREC;
+    CHANGE.NEWREC = NEWREC;
+    CHANGE.TYPE = 'U';
+
+
+    /* If newrec taxid is larger, stuff was deleted*/
+    IF OLDREC.META.TAXID < NEWREC.META.TAXID THEN BEGIN;
+        CALL INC(NEWREC.META.TAXID, OLDDAT, 'D', OLDREC);
+        OLD_REC_CONSUMED = 0;
+    END;
+    /* If oldrec taxid is larger, stuff was added*/
+    ELSE IF NEWREC.META.TAXID < OLDREC.META.TAXID THEN BEGIN;
+        CALL INC(OLDREC.META.TAXID, NEWDAT, 'A', NEWREC);
+        NEW_REC_CONSUMED = 0;
+    END;
+    ELSE BEGIN;
+      IF ^(OLDREC.META.STATUS = NEWREC.META.STATUS & 
+         OLDREC.META.LAST_UPDATED.UPDATE_DATE =
+         NEWREC.META.LAST_UPDATED.UPDATE_DATE &
+         OLDREC.META.LAST_UPDATED.UPDATE_TIME =
+         NEWREC.META.LAST_UPDATED.UPDATE_TIME &
+         OLDREC.BALANCE = NEWREC.BALANCE
+         ) THEN 
+      BEGIN;
+          CALL AMOGUS(CHANGE);
+      END;
+      NEW_REC_CONSUMED = 0;
+      OLD_REC_CONSUMED = 0;
+    END;
+  END;
+  IF (NEW_REC_END = 0) THEN BEGIN;
+        CALL INC((0-1), NEWDAT, 'A', NEWREC);
+  END;
+  IF (OLD_REC_END = 0) THEN BEGIN;
+        CALL INC((0-1), OLDDAT, 'D', OLDREC);
+  END;
+  CLOSE FILE(OLDDAT);
+  CLOSE FILE(NEWDAT);
+ END DIFF;

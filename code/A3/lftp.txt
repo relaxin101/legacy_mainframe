@@ -1,0 +1,6 @@
+connect localhost:2121
+login HERC01 CUL8TR
+cd HERC03.LAB3.PL1
+put -a SAMPCLG.jcl -o SAMPCLG
+put -a SAMPDAT.pl1 -o SAMPDAT
+put -a TAXREC.pl1 -o TAXREC
