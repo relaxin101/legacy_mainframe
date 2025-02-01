@@ -18,6 +18,7 @@ all:
 read:
 	nc -4 localhost 3505 < $(JOB) < read.pl1 < $(JOB_END)
 
+setup: ds ftp
 ds: $(DS)
 	nc -4 localhost 3505 < $(DS)
 

@@ -1,0 +1,149 @@
+AMOGUS
+OLD DATA
+TAXID                2
+STATUS
+BALANCE           99060.73
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   1:        TEST NOTE: 106
+
+
+NEW DATA
+TAXID                2
+STATUS
+BALANCE           99060.73
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   1:        TEST NOTE: 106
+
+
+
+
+
+
+OLD DATA
+TAXID                4
+STATUS
+BALANCE           27090.57
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   2:        TEST NOTE: 212
+
+
+NEW DATA
+TAXID                4
+STATUS
+BALANCE           27090.57
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   2:        TEST NOTE: 212
+
+
+
+
+
+NEW DATA
+TAXID                5
+STATUS
+BALANCE           27090.57
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   2:        TEST NOTE: 212
+
+
+OLD DATA
+TAXID                8
+STATUS
+BALANCE          -52155.10
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   4:        TEST NOTE: 424
+
+
+NEW DATA
+TAXID                8
+STATUS
+BALANCE          -76825.46
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   4:        -- THIS NOTE WAS CHANGED: 896 --
+
+
+OLD DATA
+TAXID               10
+STATUS
+BALANCE           77389.06
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   5:        TEST NOTE: 530
+
+
+NEW DATA
+TAXID               10
+STATUS
+BALANCE           77389.06
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   5:        TEST NOTE: 530
+
+
+
+OLD DATA
+TAXID               12
+STATUS
+BALANCE           73319.03
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   6:        TEST NOTE: 636
+
+
+NEW DATA
+TAXID               12
+STATUS
+BALANCE           73319.03
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   6:        TEST NOTE: 636
+
+OLD DATA
+TAXID               14
+STATUS
+BALANCE          -57338.18
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   7:        TEST NOTE: 742
+
+
+NEW DATA
+TAXID               14
+STATUS
+BALANCE          -57338.18
+LAST UPDATE
+  DATE
+  TIME
+NOTES
+   7:        TEST NOTE: 742
