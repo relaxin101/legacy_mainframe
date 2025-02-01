@@ -15,6 +15,8 @@ JOB_END = job_end.jcl
 job: all
 all:
 	nc -4 localhost 3505 < $(JOB) < $(RUN) < $(JOB_END)
+read:
+	nc -4 localhost 3505 < $(JOB) < read.pl1 < $(JOB_END)
 
 ds: $(DS)
 	nc -4 localhost 3505 < $(DS)
