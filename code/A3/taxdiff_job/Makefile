@@ -5,9 +5,12 @@ SHELL := zsh
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
 
-.PHONY: all setup_job taxdiff_job readoutput_job
+.PHONY: job
 
-all: setup_job taxdiff_job readoutput_job
+RUN = amogus.pl1
+JOB = job.jcl
+JOB_END = job_end.jcl
 
-*_job:
-	cd $@ && make job
+job: diff
+diff:
+	nc -4 localhost 3505 < $(JOB) < $(RUN) < $(JOB_END)

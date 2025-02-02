@@ -1,0 +1,90 @@
+
+ /*Negation character: ¬ */
+ DIFF: PROC OPTIONS(MAIN) REORDER;                                                          
+   DISPLAYREC: PROCEDURE(REC);
+      /* WRITE 'REC' TO SYSPRINT IN A CLEAN FORMAT */
+    DCL 1 REC  UNALIGNED,
+          %INCLUDE TAXREC;;
+    PUT SKIP FILE(SYSPRINT) EDIT ('TAXID', REC.META.TAXID)
+      (A, COLUMN(14), F(9));
+    PUT SKIP FILE(SYSPRINT) EDIT ('STATUS   ', REC.META.STATUS)    
+      (A, COLUMN(14), A);
+    PUT SKIP FILE(SYSPRINT) EDIT('BALANCE   ', REC.BALANCE)   
+      (A, COLUMN(14), F(13,2));
+     PUT SKIP FILE(SYSPRINT) EDIT ('LAST UPDATE','DATE ', 
+        REC.LAST_UPDATED.UPDATE_DATE, 'TIME ',
+        REC.LAST_UPDATED.UPDATE_TIME)   
+        (A,SKIP, COLUMN(3), A, COLUMN(14),A,
+          SKIP,COLUMN(3),A,COLUMN(14),A);
+    PUT SKIP FILE(SYSPRINT) LIST('NOTES');
+    DO I = 1 TO 10; 
+      IF (REC.NOTES(I) ^= '') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) EDIT (I, ':', REC.NOTES(I))
+        (COLUMN(3),F(2), A, COLUMN(14), A);
+      END;
+
+
+   END DISPLAYREC;
+
+   AMOGUS: PROCEDURE(DIFF);
+    /* STORE 'CHANGE' AND WRITE TO SYSPRINT */
+    DCL 1 DIFF  UNALIGNED,
+         2 TYPE CHAR(1),
+         2 FUTURE CHAR(19),
+         2 OLDREC UNALIGNED,
+          %INCLUDE TAXREC;,
+         2 NEWREC UNALIGNED,
+          %INCLUDE TAXREC;;
+      IF (DIFF.TYPE = 'A') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD ADDED');
+        PUT SKIP FILE(SYSPRINT) LIST('NEW');
+        CALL DISPLAYREC(DIFF.NEWREC);
+      END; IF (DIFF.TYPE = 'D') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD DELETED');
+        PUT SKIP FILE(SYSPRINT) LIST('OLD');
+        CALL DISPLAYREC(DIFF.OLDREC);
+      END;
+      IF (DIFF.TYPE = 'U') THEN BEGIN;
+        PUT SKIP FILE(SYSPRINT) LIST('RECORD UPDATED');
+        PUT SKIP FILE(SYSPRINT) LIST('OLD');
+        CALL DISPLAYREC(DIFF.OLDREC);
+
+        PUT SKIP FILE(SYSPRINT) LIST('NEW');
+        CALL DISPLAYREC(DIFF.NEWREC);
+      END;
+      PUT SKIP FILE(SYSPRINT) EDIT (' ') (SKIP,A,SKIP);
+
+   END AMOGUS;
+
+   /*********************************************************************************************
+   ************************************START OF MAIN PROGRAM************************************
+   *********************************************************************************************/
+
+  /* Program output */
+  DCL SYSPRINT FILE OUTPUT STREAM;
+  /* FILES */
+  DCL CHANGES FILE INPUT RECORD;
+  /* Records */
+  DCL 1 CHANGE  UNALIGNED,
+       2 TYPE CHAR(1),
+       2 FUTURE CHAR(19),
+       2 OLDREC UNALIGNED,
+        %INCLUDE TAXREC;,
+       2 NEWREC UNALIGNED,
+        %INCLUDE TAXREC;;
+  /* EOF Flags */
+  DCL CHANGES_END FIXED BIN(31) INIT(0);
+
+  ON ENDFILE(CHANGES) BEGIN;
+    CHANGES_END = 1;
+  END;
+  
+  DO WHILE (0 = CHANGES_END);
+    READ FILE (CHANGES) INTO (CHANGE);
+    CALL AMOGUS(CHANGE);
+  END;
+
+
+
+
+ END DIFF;
